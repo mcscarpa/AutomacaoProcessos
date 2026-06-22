@@ -5,7 +5,7 @@ import pyperclip
 import requests
 import time
 
-chave_API = "75c644d781572bd097f997c68006f476"
+chave_API = "SUA_CHAVE_API"
 
 cidade = "Belo Horizonte"
 endereco = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={chave_API}&lang=pt_br&units=metric"
@@ -51,7 +51,7 @@ pyautogui.PAUSE = 5
 webbrowser.open("www.gmail.com")
 time.sleep(10)
 pyautogui.click(x=47, y=218)
-pyperclip.copy("mariascarpa.netto@gmail.com")
+pyperclip.copy("EMAIL_GESTOR")
 time.sleep(5)
 pyautogui.hotkey("ctrl", "v")
 pyautogui.hotkey("tab")
